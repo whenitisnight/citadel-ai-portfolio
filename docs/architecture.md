@@ -1,9 +1,11 @@
 # Architecture
 
-The browser renders a real mesh scene with Three.js. Authored camera destinations and bounded route sampling move between the street, shop and counter; navigation can settle immediately when motion is disabled. Rendering is requested as the camera or demonstration changes.
+The HTML document owns the reading order and navigation. Scroll position is normalized across the chapters and mapped onto a Three.js camera path. Direct stage links move through that same route, update browser history and place keyboard focus on the destination heading. User scrolling can interrupt an animated transition.
 
-The asset pipeline uses Blender-authored geometry and CC0 detail assets, Cycles illumination baked into denoised atlases, and Draco-compressed mesh delivery. Runtime loaders, fonts and decoder assets are served locally. The counter tablet and translucent stock card update their textures from the browser's demonstration state.
+The current scene uses authored procedural geometry, local Three.js modules, environmental lighting, floor reflections and restrained bloom. Structures alongside and above the route make camera travel perceptible. Fonts and runtime modules are served locally. The current entry does not need the older retail scene's Blender assets, although those editable assets remain preserved with that version.
 
-The workflow separates inquiry, stock inspection, draft reply and confirmation. Sample stock changes only on the confirmation step, and reset restores the fixture. These stages demonstrate an interaction pattern; they are not model inference or a real business transaction.
+Rendering pauses when the document is hidden or a dialog is open. Reduced motion disables ambient movement and continuous camera travel. The scene is separate from the semantic HTML controls, so a simulated WebGL initialization failure does not remove navigation, the sample result or the local contact-brief interaction.
 
-The private repository preserves both the deployed runtime and editable authoring assets, with older website directions retained as named Git checkpoints. The public library is independently authored documentation, not a copy of that source history.
+The workflow's inputs, context and outputs are authored examples. The brief is local page memory and copying requires an explicit action. No business API or message-sending backend is connected to the demonstration.
+
+The source repository keeps the major design revisions as named branches or tags. This independent public library contains selected explanations and evidence, with no private implementation history copied into it.

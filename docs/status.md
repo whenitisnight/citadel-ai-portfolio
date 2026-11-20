@@ -1,9 +1,11 @@
 # Current scope
 
-Recorded design checkpoint: Retail 031, November 18, 2026. Portfolio published November 19, 2026.
+Recorded checkpoint: **Inside the workflow 034**, November 20, 2026. This is the newest source revision in review; publishing its documentation does not merge the implementation PR or deploy the site.
 
-Visitors can move between authored street, store and pickup positions, drag to look around, inspect the product, and complete the sample inquiry/reply/confirmation flow. The stock card and counter tablet reflect the confirmed request. Reset restores the starting sample stock. Motion-off navigation and reduced-motion behavior are implemented.
+Native document scrolling maps onto a continuous three-dimensional camera route. The visitor moves through incoming requests, connected context and sample outputs, then reaches the delivery approach and contact options. Direct links, URL fragments, browser history, keyboard controls and the mobile menu reach the same stages. Important explanations remain ordinary HTML.
 
-The street is limited supporting scenery; other businesses are not interactive. Stock, people and requests are fictional. The demonstration does not connect to an AI model, inventory service, account system, messaging channel or checkout. Physical-phone performance and a complete production integration remain unverified.
+Reduced motion replaces continuous travel with fixed viewpoints. If WebGL initialization fails, reading, navigation, dialogs and the sample result remain usable. The local brief supports explicit copying; contact opens the existing Citadel contact page. The brief remains in page memory.
 
-Earlier visual directions remain named checkpoints in the private project's existing history. Publishing this portfolio did not redeploy the site or replace a domain.
+All workflow information is illustrative. No model, live customer record, calendar, inventory service or messaging channel is connected. This publication does not certify physical-phone performance, sustained frame rate, contact submission, production readiness or customer outcomes.
+
+The earlier retail scene and all major design directions remain preserved in named source versions. Their historical verification remains available with its original date.

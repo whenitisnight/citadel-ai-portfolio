@@ -1,16 +1,16 @@
-# Citadel AI — spatial business demonstrations
+# Citadel AI — inside the workflow
 
-I use an interactive environment to explain a business workflow: move from a customer inquiry to a reviewed action, while keeping the state change visible.
+I use an interactive three-dimensional journey to explain AI integration and automation: incoming information receives context, moves through connected systems, and produces a useful next step.
 
-The current prototype is a **3D street, homewares store and pickup counter**. A fictional inquiry finds a lamp, checks sample stock and prepares a reply. A pickup request is created only after confirmation. The scene and demonstration run locally in the browser; no AI model, live inventory, real order or customer message is connected.
+The current design carries the viewer through **Receive → Understand → Act**, with direct stage links, readable business explanations, and a local project brief. The demonstration uses authored sample data; it does not call an AI model, CRM, calendar or messaging service.
 
 | Explore | What it explains |
 | --- | --- |
-| [Current scope](docs/status.md) | Implemented experience and remaining boundaries |
-| [Architecture](docs/architecture.md) | Three.js scene, baked lighting and local workflow state |
-| [Design evolution](case-studies/design-evolution.md) | Observatory, Cira, photographic and retail directions |
-| [Verification](verification/2026-11-18-retail.md) | Dated browser checks and an animation-boundary correction |
+| [Current scope](docs/status.md) | The immersive workflow checkpoint and its limits |
+| [Architecture](docs/architecture.md) | Document-driven navigation, camera travel and graceful fallback |
+| [Design evolution](case-studies/design-evolution.md) | Observatory, retail, spatial documents and the continuous journey |
+| [Latest verification](verification/2026-11-20-workflow.md) | Fresh source/regression checks and dated browser evidence |
 
-This is a curated record of AI-assisted design and development. Source and editable assets remain private. The prototype does not establish commercial results or a production integration.
+This is a curated record of AI-assisted design and development. Source and editable assets remain private, with distinct designs preserved in the same project. A development checkpoint is not proof of commercial results or a production integration.
 
 [William Haggard](https://github.com/whenitisnight)
